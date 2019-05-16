@@ -1,18 +1,18 @@
+import org.jetbrains.annotations.Contract;
+
 import java.util.Scanner;
 
 
 public class  main2Session {
 
     public static void main(String[] args){
-    Scanner age_variable = new Scanner(System.in);
-
-        System.out.println(ageDoubler(age_variable.nextInt()));
-
-
-        }
-    static int ageDoubler(int age){
-        return age*2;
+        String name = "babak";
+        String family = "abdzadeh";
+        int stdID = 935122007 ;
+        Student firstStudent =new Student(name,family,stdID);
+        firstStudent.printStudent();
     }
+
 
     }
 
@@ -45,3 +45,11 @@ public class  main2Session {
 //          Scope
 //          return output;
 //  }
+
+
+// DRY ( Dont Repeat Yourself)
+
+// real world : (with Ex)
+// 1. Requirement : getting fullName , printing StdNumber
+// 2. Diagram Design (Schematic)
+// 3.
