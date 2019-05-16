@@ -1,27 +1,24 @@
 import java.util.Scanner;
 
+
 public class main2Session {
+
     public static void main(String[] args){
-        System.out.print("enter your age please:");
-        Scanner age_variable = new Scanner(System.in);
-        int age = age_variable.nextInt();
-        if (age > 15 && age < 24){
-            System.out.println("you are young");
+        ageDoubler(24);
+        System.out.println(ageDoubler(24));
+
+
         }
-        else if (age > 24 && age <50 ){
-            System.out.println("you are middle age");
-        }
-        else if (age == 24){
-            System.out.println("you are exactly 24");
-        }
-        else {
-            System.out.println("we cant tell about you");
-        }
+    static int ageDoubler(int age){
+        return age*2;
     }
-}
+
+    }
+
 // int age ; => this is declaration
 // age = 18 ; this is initialize
 // deference between print and println ( we use println for times we want to /n our caret after print)
+
 
 // Flow : Running line by line
 // Conditional loops :
@@ -37,3 +34,13 @@ public class main2Session {
 // scope
 //  {
 // another conditional loops : Switch / while / do - while / for
+
+
+
+
+// Function :
+//int<type> <functionName> (<type> inputName){
+//
+//          Scope
+//          return output;
+//  }
