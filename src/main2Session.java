@@ -23,7 +23,7 @@ public class main2Session {
 // age = 18 ; this is initialize
 // deference between print and println ( we use println for times we want to /n our caret after print)
 
-
+// Flow : Running line by line
 // Conditional loops :
 // <<<if>>> example:
 // int age = 18
@@ -36,4 +36,4 @@ public class main2Session {
 // else {
 // scope
 //  {
-//
+// another conditional loops : Switch / while / do - while / for
