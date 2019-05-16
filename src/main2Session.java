@@ -1,11 +1,12 @@
 import java.util.Scanner;
 
 
-public class main2Session {
+public class  main2Session {
 
     public static void main(String[] args){
-        ageDoubler(24);
-        System.out.println(ageDoubler(24));
+    Scanner age_variable = new Scanner(System.in);
+
+        System.out.println(ageDoubler(age_variable.nextInt()));
 
 
         }
