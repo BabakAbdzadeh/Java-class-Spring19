@@ -24,20 +24,17 @@ public class Main{
         pride.setCapacity(4);
         benz.setQuality("perfect");
         benz.setCapacity(5);
+
         System.out.println("prideInformation");
-        pride.printCarInformation();
+        System.out.println(pride.getQuality());
+        System.out.println(pride.getCapacity());
+//        pride.printCarInformation();
         System.out.println("benzInformation");
-        benz.printCarInformation();
+        System.out.println(pride.getQuality());
+        System.out.print(benz.getCapacity());
+//        benz.printCarInformation();
     }
 }
-
-
-
-
-
-
-
-
 
 
 
