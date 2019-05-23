@@ -1,11 +1,16 @@
 public class Car {
     private String quality;
     private int capacity;
-    void setQuality(String q){
-        this.quality= q;
-    }
-    void setCapacity(int c){
-        this.capacity=c;
+//    void setQuality(String q){
+//        this.quality= q;
+//    }
+//    void setCapacity(int c){
+//        this.capacity=c;
+//    }
+    //--->Constructor way<-----
+    public Car(String q, int c){
+        this.quality = q;
+        this.capacity = c;
     }
     String getQuality(){
         return this.quality;

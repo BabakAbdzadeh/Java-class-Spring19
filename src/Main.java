@@ -18,12 +18,18 @@ import java.util.Scanner;
 
 public class Main{
     public static void main(String[] args) {
-        Car pride = new Car();
-        Car benz = new Car();
-        pride.setQuality("bad");
-        pride.setCapacity(4);
-        benz.setQuality("perfect");
-        benz.setCapacity(5);
+        //-----> setter method <--------
+//        Car pride = new Car();
+//        Car benz = new Car();
+//        pride.setQuality("bad");
+//        pride.setCapacity(4);
+//        benz.setQuality("perfect");
+//        benz.setCapacity(5);
+        // ------> Constructor <--------
+        Car pride = new Car("bad",4);
+        Car benz = new Car("perfect",5);
+
+
 
         System.out.println("prideInformation");
         System.out.println(pride.getQuality());
