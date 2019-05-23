@@ -3,18 +3,44 @@ import org.jetbrains.annotations.Contract;
 import java.util.Scanner;
 
 
-public class  main2Session {
+//public class  main2Session {
+//
+//    public static void main(String[] args){
+//        String name = "babak";
+//        String family = "abdzadeh";
+//        int stdID = 935122007 ;
+//        Student firstStudent =new Student(name,family,stdID);
+//        firstStudent.printStudent();
+//    }
+//
+//
+//    }
 
-    public static void main(String[] args){
-        String name = "babak";
-        String family = "abdzadeh";
-        int stdID = 935122007 ;
-        Student firstStudent =new Student(name,family,stdID);
-        firstStudent.printStudent();
+public class Main{
+    public static void main(String[] args) {
+        Car pride = new Car();
+        Car benz = new Car();
+        pride.setQuality("bad");
+        pride.setCapacity(4);
+        benz.setQuality("perfect");
+        benz.setCapacity(5);
+        System.out.println("prideInformation");
+        pride.printCarInformation();
+        System.out.println("benzInformation");
+        benz.printCarInformation();
     }
+}
 
 
-    }
+
+
+
+
+
+
+
+
+
 
 // int age ; => this is declaration
 // age = 18 ; this is initialize
@@ -52,4 +78,4 @@ public class  main2Session {
 // real world : (with Ex)
 // 1. Requirement : getting fullName , printing StdNumber
 // 2. Diagram Design (Schematic)
-// 3.
+// 3. Code
