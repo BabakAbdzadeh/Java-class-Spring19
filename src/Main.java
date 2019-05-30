@@ -1,8 +1,3 @@
-import org.jetbrains.annotations.Contract;
-
-import java.util.Scanner;
-
-
 //public class  main2Session {
 //
 //    public static void main(String[] args){
@@ -21,14 +16,21 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Teacher a=new Teacher("parham"); // مقدار دهی اولیه با تابع سازنده
-        Student b=new Student("mehdi");
-        a.print();
-        b.print();
-        a.setName("mohammad");  //مقدار دهی ثانویه چون درون (a,b) است ، اسم های قبلی پاک میشن
-        b.setName("ahmad");     //ولی چون یه پرینت قبل تغییرات گرفتم ، نمایشش رو run میونه
-        a.print();
-        b.print();
+        Teacher t=new Teacher("parham","4 years"); // مقدار دهی اولیه با تابع سازنده
+        Student s=new Student("mehdi", 935122007);
+        t.print();
+        s.print();
+        t.setName("mohammad");  //مقدار دهی ثانویه چون درون (t,s) است ، اسم های قبلی پاک میشن
+        s.setName("ahmad");     //ولی چون یه پرینت قبل تغییرات گرفتم ، نمایشش رو run میونه
+        t.print();  // this ( t ) is reference name
+        s.print();
+        t.setName("jack");     //با یکبار استقاده از تابع سازنده، میتوان با set بار ها تغییر داد
+        t.setJobHistory("5 years");
+        s.setName("nick");
+        s.setStdId(935122008);
+        t.print();
+        s.print();
+
 
     }
 }
