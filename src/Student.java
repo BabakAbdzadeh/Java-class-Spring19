@@ -8,7 +8,7 @@ public class Student extends Person{
 
     public  Student(String name,int stdId){
 
-        super(name);
+        this.name= name;
         this.setStdId(stdId);
     }
 
@@ -37,7 +37,7 @@ public class Student extends Person{
 //
 
     public  void print(){
-        System.out.println(super.name+"\t"+ this.stdId);
+        System.out.println(this.name+"\t"+ this.stdId);
     }
 
 }

@@ -6,7 +6,7 @@ public class Teacher extends Person {
 
     public  Teacher(String name,String jobHistory){
 
-        super(name);
+        this.name = name;
         this.setJobHistory(jobHistory);
     }
 
@@ -20,6 +20,6 @@ public class Teacher extends Person {
 
     public  void print(){
 
-        System.out.println(super.name+"\t"+ this.jobHistory);
+        System.out.println(this.name+"\t"+ this.jobHistory);
     }
 }
