@@ -1,19 +1,19 @@
 public class Student {
-    String name;
-    String family;
-    int stdID;
-    void printStudent()
-    {
+
+    private String name;
+
+    public String setName (){
+
+        return  this.name;
+
+    }
+
+    public  Student(String Name){
+
+        this.name=Name;
+    }
+    public  void print(){
         System.out.println(this.name);
-        System.out.println(this.family);
-        System.out.println(this.stdID);
-
-
     }
-    public Student(String name,String family,int stdID){
-        this.name = name;
-        this.family = family;
-        this.stdID = stdID;
 
-    }
 }

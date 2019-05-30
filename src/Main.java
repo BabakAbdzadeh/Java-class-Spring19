@@ -16,31 +16,18 @@ import java.util.Scanner;
 //
 //    }
 
-public class Main{
+public class Main {
+
     public static void main(String[] args) {
-        //-----> setter method <--------
-//        Car pride = new Car();
-//        Car benz = new Car();
-//        pride.setQuality("bad");
-//        pride.setCapacity(4);
-//        benz.setQuality("perfect");
-//        benz.setCapacity(5);
-        // ------> Constructor <--------
-        Car pride = new Car("bad",4);
-        Car benz = new Car("perfect",5);
 
 
-
-        System.out.println("prideInformation");
-        System.out.println(pride.getQuality());
-        System.out.println(pride.getCapacity());
-//        pride.printCarInformation();
-        System.out.println("benzInformation");
-        System.out.println(pride.getQuality());
-        System.out.print(benz.getCapacity());
-//        benz.printCarInformation();
+        Teacher a=new Teacher("parham");
+        Student b=new Student("mehdi");
+        a.print();
+        b.print();
     }
 }
+
 
 
 
