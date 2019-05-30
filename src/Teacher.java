@@ -1,22 +1,13 @@
-import javax.lang.model.element.NestingKind;
+public class Teacher extends Person {
 
-public class Teacher {
 
-    private  String name;
     private String  jobHistory;
-    public  String getName(){
 
-        return  this.name;
-    }
-    public  void  setName (String n){
 
-        this.name=n;
-    }
+    public  Teacher(String name,String jobHistory){
 
-    public  Teacher(String name, String jobHistory){
-
-        this.name=name;
-        this.jobHistory = jobHistory;
+        super(name);
+        this.setJobHistory(jobHistory);
     }
 
     public String getJobHistory() {
@@ -29,6 +20,6 @@ public class Teacher {
 
     public  void print(){
 
-        System.out.println(this.name+"\t"+this.jobHistory);
+        System.out.println(super.name+"\t"+ this.jobHistory);
     }
 }

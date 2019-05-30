@@ -39,6 +39,7 @@ public class Main {
 
 
 
+
 // int age ; => this is declaration
 // age = 18 ; this is initialize
 // deference between print and println ( we use println for times we want to /n our caret after print)

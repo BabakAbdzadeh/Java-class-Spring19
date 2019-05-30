@@ -1,24 +1,15 @@
-public class Student {
+public class Student extends Person{
 
-    private String name;
+
     private int stdId;
     // alt + enter for making fast getter and setter and constructor
 
 
-    public String getName(){
-        return this.name;
-    }
 
-    public void setName (String n){
+    public  Student(String name,int stdId){
 
-        this.name= n;
-
-    }
-
-    public  Student(String Name, int stdId){
-
-        this.name=Name;
-        this.stdId = stdId;
+        super(name);
+        this.setStdId(stdId);
     }
 
 
@@ -46,7 +37,7 @@ public class Student {
 //
 
     public  void print(){
-        System.out.println(this.name+"\t"+this.stdId);
+        System.out.println(super.name+"\t"+ this.stdId);
     }
 
 }
