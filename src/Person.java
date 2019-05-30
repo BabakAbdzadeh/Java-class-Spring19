@@ -4,14 +4,20 @@ public class Person {
     public String getName(){
         return this.name;
     }
+
+
     public void setName (String n){
 
         this.name= n;
 
     }
+
     public  Person(String name){
 
         this.setName(name);
+
+    }
+    public  Person(){
 
     }
 }

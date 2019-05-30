@@ -5,7 +5,7 @@ public class Teacher extends Person {
 
 
     public  Teacher(String name,String jobHistory){
-
+        super();
         this.name = name;
         this.setJobHistory(jobHistory);
     }

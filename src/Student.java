@@ -7,7 +7,7 @@ public class Student extends Person{
 
 
     public  Student(String name,int stdId){
-
+        super();
         this.name= name;
         this.setStdId(stdId);
     }
