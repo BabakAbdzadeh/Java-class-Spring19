@@ -1,10 +1,13 @@
 public class Student {
 
     private String name;
+    public String getName(){
+        return this.name;
+    }
 
-    public String setName (){
+    public void setName (String n){
 
-        return  this.name;
+        this.name= n;
 
     }
 

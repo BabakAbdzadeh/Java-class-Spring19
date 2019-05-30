@@ -21,10 +21,15 @@ public class Main {
     public static void main(String[] args) {
 
 
-        Teacher a=new Teacher("parham");
+        Teacher a=new Teacher("parham"); // مقدار دهی اولیه با تابع سازنده
         Student b=new Student("mehdi");
         a.print();
         b.print();
+        a.setName("mohammad");  //مقدار دهی ثانویه چون درون (a,b) است ، اسم های قبلی پاک میشن
+        b.setName("ahmad");     //ولی چون یه پرینت قبل تغییرات گرفتم ، نمایشش رو run میونه
+        a.print();
+        b.print();
+
     }
 }
 
